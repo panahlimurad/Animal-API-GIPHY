@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal GIPHY API</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="row" style="background-color: rgb(151, 138, 180)">
+      <div class="col-xl-8 mt-5 mb-3 ml-5">
+        <div id="animalButtons"></div>
+      </div>
+
+      <form class="col-xl-3 mb-5 mt-5 ml-5">
+        <label class="mb-0 pb-0" for="animal">Add an Animal!</label><br /><br />
+        <input type="text" id="animal" /><br /><br />
+        <input
+          class="btn badge-info rounded"
+          id="addAnimal"
+          type="submit"
+          value="Submit"
+        />
+      </form>
+    </div>
+
+    <div
+      class="row"
+      style="background-color: rgb(192, 226, 43); min-height: 100vh"
+    >
+      <div id="animalGIF" class="ml-5 pt-5 pl-5 pr-0"></div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="/assets/app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
